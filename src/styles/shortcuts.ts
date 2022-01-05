@@ -1,11 +1,19 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { FullConfig } from 'windicss/types/interfaces';
 
+/**
+ * @note
+ * restart dev server after updating shortcuts,
+ * as this will be consumed through windi.config.ts
+ */
 export const shortcuts: FullConfig = {
+  layout: {
+    '@apply': 'max-w-1000px mx-auto p-4',
+  },
   btn: {
     color: 'white',
     '@apply':
-      'text-sm text-center font-medium bg-blue-700 rounded-lg mr-2 mb-2 px-5 py-2.5',
+      'cursor-pointer text-sm text-center font-semibold bg-blue-700 rounded-2xl px-5 py-2.5',
     '&:hover': {
       '@apply': 'bg-blue-800',
     },

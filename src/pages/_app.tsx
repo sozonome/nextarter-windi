@@ -1,15 +1,18 @@
 import { DefaultSeo } from 'next-seo';
 import { AppProps } from 'next/app';
-
+import '@fontsource/outfit/latin.css';
 import 'windi.css';
+
 import defaultSEOConfig from '../../next-seo.config';
-import 'styles/globals.css';
+import Layout from 'components/layout';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo {...defaultSEOConfig} />
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }
