@@ -5,7 +5,7 @@ const CTASection = () => {
     <div className="grid gap-2.5">
       <div className="flex items-center gap-2">
         <a
-          className="btn bg-green-600 hover:bg-green-800 rounded-3xl font-semibold"
+          className="btn bg-gradient-to-br from-gray-100 to-green-200 hover:from-gray-200 hover:to-green-200 text-green-700 hover:text-green-800 border-green-400 border-2 rounded-3xl font-semibold"
           href="https://github.com/sozonome/nextarter-windi/generate"
           target="_blank"
           rel="noopener noreferrer"
