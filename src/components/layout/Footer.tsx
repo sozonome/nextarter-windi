@@ -1,11 +1,18 @@
 const Footer = () => {
   return (
-    <div className="layout text-center text-sm mt-auto">
+    <footer className="layout text-center text-sm text-gray-500">
       <p>
-        &copy; {new Date().getFullYear()} by{' '}
-        <a href="https://sznm.dev">Agustinus Nathaniel</a>
+        &copy; {new Date().getFullYear()} |{' '}
+        <a
+          href="https://sznm.dev"
+          className="hover:underline hover:text-blue-600"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          sznm.dev
+        </a>
       </p>
-    </div>
+    </footer>
   );
 };
 

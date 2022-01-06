@@ -13,7 +13,7 @@ export const shortcuts: FullConfig = {
   btn: {
     color: 'white',
     '@apply':
-      'cursor-pointer text-sm text-center font-semibold bg-blue-700 rounded-2xl px-5 py-2.5',
+      'cursor-pointer text-sm text-center font-semibold bg-blue-600 rounded-2xl px-5 py-2.5',
     '&:hover': {
       '@apply': 'bg-blue-800',
     },
