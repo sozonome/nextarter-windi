@@ -4,7 +4,7 @@ import '@fontsource/outfit/latin.css';
 import 'windi.css';
 
 import defaultSEOConfig from '../../next-seo.config';
-import Layout from 'components/layout';
+import Layout from 'lib/components/layout';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

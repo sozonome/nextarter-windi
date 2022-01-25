@@ -5,7 +5,7 @@ import aspectRatioPlugin from 'windicss/plugin/aspect-ratio';
 import formsPlugin from 'windicss/plugin/forms';
 import typographyPlugin from 'windicss/plugin/typography';
 
-import { shortcuts } from './src/styles/shortcuts';
+import { shortcuts } from './src/lib/styles/shortcuts';
 
 export default defineConfig({
   // attributify: true,
