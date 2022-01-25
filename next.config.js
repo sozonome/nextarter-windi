@@ -34,4 +34,7 @@ module.exports = withPWA({
   images: {
     domains: ['vercel.com'],
   },
+  eslint: {
+    dirs: ['src'],
+  },
 });
