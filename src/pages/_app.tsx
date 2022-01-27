@@ -1,5 +1,5 @@
 import { DefaultSeo } from 'next-seo';
-import { AppProps } from 'next/app';
+import type { AppProps } from 'next/app';
 import '@fontsource/outfit/latin.css';
 import 'windi.css';
 

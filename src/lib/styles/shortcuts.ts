@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { FullConfig } from 'windicss/types/interfaces';
+import type { FullConfig } from 'windicss/types/interfaces';
 
 /**
  * @note
